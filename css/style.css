@@ -213,3 +213,76 @@ p.tele {
 
 
 /* /////////////////// COMPLETED /////////////////// */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    background-color: transparent;
+    padding: 0;
+    width: 420px;
+}
+
+.grid-item {
+    background-color: #ffffff;
+    text-align: left;
+    padding: 0;
+}
+
+.grid-description {
+    font-weight: bold;
+}
+
+#slider {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#button-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 205px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.dot.current {
+    background-color: #333;
+}

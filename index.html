@@ -67,7 +67,47 @@
                     <h2 class="comp__content__title">Completed projects</h2>
                     <p class="comp__content__text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
                         market we have made happy more than 1000 families</p>
-                    <div class="comp__content__descr"></div>
+                    <div class="comp__content__descr">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <div class="grid-description">CITY</div>
+                                <div class="grid-text">Rostov on don</div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="grid-description">Apartment area</div>
+                                <div class="grid-text">81m</div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="grid-description">Repair time</div>
+                                <div class="grid-text">3,5 months</div>
+                            </div>
+                            <div class="grid-item">
+                                <div class="grid-description">Repair cost</div>
+                                <div class="grid-text">upon request</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comp__slider__btns">
+                        <div id="slider">
+                            <div class="slide">
+                                <img src="/img/stock-1.jpg" alt="image1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/stock-2.jpg" alt="image2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/stock-1.jpg" alt="image3">
+                            </div>
+                        </div>
+                        
+                        <div id="button-group">
+                            <button id="left-arrow">&lt;</button>
+                            <span class="dot current"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                            <button id="right-arrow">&gt;</button>
+                        </div>
+                    </div>
                 </div>
                 <div class="comp__slider">
                     <div class="comp__slider__heading"></div>
@@ -77,46 +117,7 @@
         </div>
     </section>
 
-    <style>
-    .grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 10px;
-        background-color: transparent;
-        padding: 10px;
-        width: 420px;
-    }
 
-    .grid-item {
-        background-color: #ffffff;
-        text-align: left;
-        padding: 20px;
-    }
-
-    .description {
-        font-weight: bold;
-}
-    </style>
-
-    <div class="grid-container">
-        <div class="grid-item">
-            <div class="description">CITY</div>
-            <div class="text">Rostov on don</div>
-        </div>
-        <div class="grid-item">
-            <div class="description">Apartment area</div>
-            <div class="text">81m</div>
-        </div>
-        <div class="grid-item">
-            <div class="description">Repair time</div>
-            <div class="text">3,5 months</div>
-        </div>
-        <div class="grid-item">
-            <div class="description">Repair cost</div>
-            <div class="text">upon request</div>
-        </div>
-    </div>
-    
 </body>
+<script src="/js/script.js"></script>
 </html>
